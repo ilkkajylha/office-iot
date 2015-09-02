@@ -5,7 +5,7 @@ Vagrant.configure("2") do |config|
   config.vm.provision "shell", inline: "echo Hello"
 
   config.vm.define "web" do |web|
-    web.vm.box_url = "https://dl.dropboxusercontent.com/u/99151903/wheezy.box"
+    web.vm.box_url = "https://github.com/jose-lpa/packer-debian_7.6.0/releases/download/1.0/packer_virtualbox-iso_virtualbox.box"
     web.vm.box = "wheezy"
     web.vm.provision "shell", inline: <<-SHELL
       sudo apt-get update
@@ -13,7 +13,7 @@ Vagrant.configure("2") do |config|
     SHELL
   end
   config.vm.define "raspi" do |raspi|
-    raspi.vm.box_url = "https://dl.dropboxusercontent.com/u/99151903/wheezy.box"
+    raspi.vm.box_url = "https://github.com/jose-lpa/packer-debian_7.6.0/releases/download/1.0/packer_virtualbox-iso_virtualbox.box"
     raspi.vm.box = "wheezy"
     raspi.vm.provision "shell", inline: <<-SHELL
       sudo apt-get update
