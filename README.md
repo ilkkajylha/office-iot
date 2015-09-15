@@ -3,14 +3,19 @@ This is a school project for Martela Oy. The goal is to create a device that mon
 
 
 ### Vagrant
-We use vagrant to replace Raspberry Pi and frontend/backend server when hardware is not available or when it is just easier to virtualize it. 
-``` sh 
+We use vagrant to replace Raspberry Pi and frontend/backend server when hardware is not available or when it is just easier to virtualize it.
+``` sh
 git clone git@github.com:ilkkajylha/martela-iot.git
 vagrant up
 ```
 
-###
-arduino-mock-data.ino generates random integer between 0 and 1 to provide mock data and test communication with arduino. 
-Tested with arduino mega 2560. 
+### arduino
+
+##### arduino-mock-data.ino
+generates random integer between 0 and 1 to provide mock data and test communication with arduino.
 
 
+##### arduino-pir.ino
+reads PIR state and prints 1 or 0 via serial. 
+
+Tested with arduino mega 2560.
