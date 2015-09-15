@@ -17,6 +17,9 @@ Vagrant.configure("2") do |config|
     raspi.vm.box = "wheezy"
     raspi.vm.provision "shell", inline: <<-SHELL
       sudo apt-get update
+      sudo apt-get install python
+      sudo apt-get install python-setuptools
+      pip install pyserial
       echo "I am raspi, beeb boob"
     SHELL
   end
