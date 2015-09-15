@@ -16,6 +16,11 @@ generates random integer between 0 and 1 to provide mock data and test communica
 
 
 ##### arduino-pir.ino
-reads PIR state and prints 1 or 0 via serial. 
-
+reads PIR state and prints 1 or 0 via serial.
 Tested with arduino mega 2560.
+
+### Raspberry pi Python
+``` sh
+pip install pyserial
+``` 
+WIP
