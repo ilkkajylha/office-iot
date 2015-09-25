@@ -73,8 +73,10 @@ Olemme sopineet, että käytämme MIT-lisenssiä, jolloin molemmat osapuolet voi
 
 ### Ilkka Jylhä
 * Arduino ja Raspberry pi:llä ajettavan koodin kirjoittaminen ja suunnittelu.
+
 ### Antti Salo
 * Käyttöliittymän suunnittelu ja koodaus. Kotelon suunnittelu ja 3D mallintaminen. 
+
 ### Sami Nisonen
 * Dokumentointi ja avustavia tehtäviä suunnittelussa ja koodin kirjoittamisessa
 
