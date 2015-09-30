@@ -7,8 +7,6 @@ Python source code - This python script reads pir state from arduino and makes i
 # vim: tabstop=8 expandtab shiftwidth=4 softtabstop=4
 
 import serial, argparse, os, time
-
-
 # Parse arguments
 parser = argparse.ArgumentParser()
 # example:  parser.add_argument('-', '--', help="default:" , default='')
@@ -19,10 +17,6 @@ parser.add_argument('-c', '--com', help="Set com port to use. *nix uses /dev/tty
 args = parser.parse_args()
 globals().update(vars(parser.parse_args()))
 
-
-
-
-
 device = str(args.com)
 baud = int(args.baud)
 ser = serial.Serial(device, baud)
@@ -31,8 +25,6 @@ print device, baud, ser
 
 status = []
 timer = 0
-#while True:
-#    print(ser.read(1))
 
 def readStatus(): 
     status = []
@@ -46,14 +38,8 @@ def readStatus():
             if timer == 30:
                 timer = 0
                 if max(status) == 1:
-                    #print("room has had movement in past 500 time units")
-                    #print(max(status))
                     print(type(max(status)))
-                    #print(status)
                 else: 
-                    #print("room has NOT had movement in past 500 time units")
-                    #print(status)
-                    #print(max(status))
                     print(type(max(status)))
                 timer = 0
                 status = []
