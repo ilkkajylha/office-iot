@@ -33,6 +33,8 @@ Olemme sopineet, että käytämme MIT-lisenssiä, jolloin molemmat osapuolet voi
 
 ### Viikko 39 (21.9.-27.9.)
 * Arduinon ja Raspberry pi:n välinen kommunikointi
+* [Make arduino talk to python](https://officeiot.wordpress.com/2015/10/01/make-arduino-talk-to-python/)
+* [How to debug serial port](https://officeiot.wordpress.com/2015/09/30/how-to-debug-serial-port/)
 
 ### Viikko 40 (28.-9.-4.10.)
 * Datan lähetys Raspberry pi:ltä 
