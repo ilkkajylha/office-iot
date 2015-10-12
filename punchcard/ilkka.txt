@@ -10,5 +10,6 @@
 -----
 
 
-2015-10-12, 2h, Palvelimen pystytys, LAMP, php form esimerkki, käyttäjien lisäys, sshd konffit
+2015-10-11, 2h, Palvelimen pystytys, LAMP, php form esimerkki, käyttäjien lisäys, sshd konffit
 
+2015-10-12, 4h, Tietokanta luotu, mutta vaatii vielä mm. date:n fiksussa muodossa. PHP ottaa vastaan dataa, tallentaa kantaan ja näyttää yksinkertaisena listana käyttäjälle. 
