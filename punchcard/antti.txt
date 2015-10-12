@@ -1,0 +1,2 @@
+12.10.15
+	- PHP -asioita, tietokannan tutkimista, virtuaalipalvelimen käyttöönotto, Python -harjoittelua =
