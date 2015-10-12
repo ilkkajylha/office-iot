@@ -1,0 +1,14 @@
+2015-09-16, 3h, Arduinon kommunikointi python softan kanssa. Webbipalvelimen ja datan lukeminen arduinolta osoittautui ongelmaksi. Mahdollisen ratkaisun miettimistä. Alustavasti päädyin käyttämään "from multiprocessing import Process" toinen vaihtoehto olisi ollut FIFOn käyttäminen ja ohjelman jakaminen kahteen osaan
+
+2015-09-16, 1h, blogikirjoitus
+
+2015-09-23, 30m, blogikirjoitus, git repo julkiseksi, ristiinlinkittämiset
+
+2015-09-25, 1h, Projektisuunnitelman hiominen, muuttaminen markdowniksi ja laitto githubiin. Työtehtävien suunnittelu.  
+
+
+-----
+
+
+2015-10-12, 2h, Palvelimen pystytys, LAMP, php form esimerkki, käyttäjien lisäys, sshd konffit
+
