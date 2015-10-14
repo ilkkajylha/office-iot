@@ -13,3 +13,5 @@
 2015-10-11, 2h, Palvelimen pystytys, LAMP, php form esimerkki, käyttäjien lisäys, sshd konffit
 
 2015-10-12, 4h, Tietokanta luotu, mutta vaatii vielä mm. date:n fiksussa muodossa. PHP ottaa vastaan dataa, tallentaa kantaan ja näyttää yksinkertaisena listana käyttäjälle. 
+
+2015-10-13, 1h, Tutkin amazon AWS, EC2, RDS ja IoT palvelun soveltuvuutta projektiin. Vaikutti lupaavalta, mutta vaatisi huomattavasti syvempää tarkastelua johon ei projektin puitteissa ole aikaa. 
