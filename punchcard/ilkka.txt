@@ -15,3 +15,5 @@
 2015-10-12, 4h, Tietokanta luotu, mutta vaatii vielä mm. date:n fiksussa muodossa. PHP ottaa vastaan dataa, tallentaa kantaan ja näyttää yksinkertaisena listana käyttäjälle. 
 
 2015-10-13, 1h, Tutkin amazon AWS, EC2, RDS ja IoT palvelun soveltuvuutta projektiin. Vaikutti lupaavalta, mutta vaatisi huomattavasti syvempää tarkastelua johon ei projektin puitteissa ole aikaa. 
+
+2015-10-14, 2h, Git ja vagrant opetusta, PHP opiskelua. 
