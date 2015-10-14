@@ -39,8 +39,10 @@ def readStatus():
                 timer = 0
                 if max(status) == 1:
                     print(type(max(status)))
+                    # Sami's magic goes here
                 else: 
                     print(type(max(status)))
+                    # And here
                 timer = 0
                 status = []
 readStatus()
