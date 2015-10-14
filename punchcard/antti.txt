@@ -6,6 +6,11 @@ Viikko 42 suunnitelmat:
 	- 16.10 Python + ryhmätyö 2-
 	- 17.10 Python xh + ??
 	- 18.10 Python xh + ??
+	
+14.10.15
+	- Python -opiskelua (lisää looppeja, pirstatus.py -koodin pohdintaa)
+	- Debian Vagrant Boxin asennus (Raspberry Pi -virtualisointiin)
+	- 4h
 
 13.10.15
 	- Python -opiskelua (loopit, omien funktioiden kirjoittaminen ja kutsuminen)
