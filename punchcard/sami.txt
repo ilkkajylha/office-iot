@@ -1,1 +1,13 @@
-Testi
+8.10.2015
+
+	-Stressing 10h
+	-Python hello world 15 min
+
+11.10.2015
+
+	-Python HTTP get 30 min
+
+12.10.2015
+	
+	-Installing git for school's computer, documenting and preparing blog post about it. 4,5h
+
