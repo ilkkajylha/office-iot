@@ -7,6 +7,19 @@ Viikko 42 suunnitelmat:
 	- 17.10 Python xh + ??
 	- 18.10 Python xh + ??
 	
+19.10.15
+	- Python -harjoituksia
+	- Codecademyn oppimäärästä 49% suoritettu
+	- 30min
+	
+18.10.15
+	- Python -harjoituksia
+	- 20min
+	
+17.10.15
+	- Python -opiskelua
+	- 15min
+	
 16.10.15
 	- Python -opiskelua
 	- Neukkaritilojen tiedot hakevan scriptin miettimistä
