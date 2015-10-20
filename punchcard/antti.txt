@@ -7,6 +7,11 @@ Viikko 42 suunnitelmat:
 	- 17.10 Python xh + ??
 	- 18.10 Python xh + ??
 	
+20.10.15
+	- Python -harjoituksia (listat ja funktiot)
+	- Codecademyn oppimäärästä 52% suoritettu
+	- 45min
+	
 19.10.15
 	- Python -harjoituksia
 	- Codecademyn oppimäärästä 49% suoritettu
