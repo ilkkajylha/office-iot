@@ -7,6 +7,15 @@ Viikko 42 suunnitelmat:
 	- 17.10 Python xh + ??
 	- 18.10 Python xh + ??
 	
+26.10.15
+	- Python -harjoituksia (valmis laivanupotus -peli)
+	- Codecademyn oppimäärästä 59% suoritettu
+	- 30min
+	
+25.10.15
+	- Python -harjoituksia (laivanupotus -pelin ohjelmointi)
+	- 40min
+	
 20.10.15
 	- Python -harjoituksia (listat ja funktiot)
 	- Codecademyn oppimäärästä 52% suoritettu
