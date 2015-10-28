@@ -17,3 +17,9 @@
 2015-10-13, 1h, Tutkin amazon AWS, EC2, RDS ja IoT palvelun soveltuvuutta projektiin. Vaikutti lupaavalta, mutta vaatisi huomattavasti syvempää tarkastelua johon ei projektin puitteissa ole aikaa. 
 
 2015-10-14, 2h, Git ja vagrant opetusta, PHP opiskelua. 
+
+2015-10-24, 3h, refaktorointia, demo moodi python koodiin.
+
+2015-10-25, 3h, Lisää refaktorointia, verbose ja quiet moodi, demotilan logiikan parannus. luotu config.py joka pyytää käyttäjältä tietoja joiden pohjalta rakennetaan asetustiedosto. Asetustiedostoa ei vielä hyödynnetä pääohjelmassa. 
+
+2015-10-28, 1h, Antin ja Samin koodin liittäminen omaan koodiin
