@@ -94,9 +94,11 @@ def sendStatus(status):
 
 def main():
     status = []
-    finish_time = datetime.datetime.now() + datetime.timedelta(seconds=5)
+    finish_time = datetime.datetime.now() + datetime.timedelta(minutes=1)
     while datetime.datetime.now() < finish_time:
         status.append(readPirStatus())
+        time.sleep(5)
+
     sendStatus(str(max(status)))
 
 
