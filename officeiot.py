@@ -4,7 +4,7 @@ Python source code - This python script reads pir state from arduino and makes i
 """
 # vim: tabstop=4 expandtab shiftwidth=4 softtabstop=4
 
-import serial, argparse, time, random, datetime, urllib2, time
+import serial, argparse, time, random, datetime, urllib2, time, logging
 
 # Parse arguments
 parser = argparse.ArgumentParser()
@@ -14,11 +14,14 @@ parser.add_argument('-d', '--demo', action='store_true',  help="Runs in demo mod
 parser.add_argument('-o', '--com', help="Set com port to use. *nix uses /dev/ttyACM0 and Windows uses COM5 for example. default:", default='COM5')
 parser.add_argument('-r', '--room', help="Set room number, not funcitonal yet")
 parser.add_argument('-sr', '--simulate-rooms', help="Simulate multiple rooms. Room number will be randomly generated for sendStatus function, not functional yet")
-parser.add_argument('-v', '--verbose', action='store_true', help="Verbose output will print non-error messages too")
+parser.add_argument('-v', '--verbose', help="Set log level. There are different importance levels you can use, debug, info, warning, error and critical.")
 parser.add_argument('-q','--quiet', action='store_true', help="Dont print anything to stdout")
 parser.add_argument('-c','--config', help="specify config file")
 args = parser.parse_args()
 globals().update(vars(parser.parse_args()))
+
+logging.basicConfig(level=logging.DEBUG)
+logger = logging.getLogger(__name__)
 
 cfgfile = ("config.ini")
 def ConfigSectionMap(section):
@@ -71,15 +74,9 @@ def readPirStatus():
 
 
 def sendStatus(status):
-    #Samin http get -> here <- 
-    #hardcode server and room...
     url = server+"?room="+room+"?status="+status+"?apikey="+apikey
     if args.verbose:
-        print('*******************************************************')
-        print('room: ' + room)
-        print('status: ' + status)
-        print('apikey: ' +apikey)
-        print('url: ' + url)
+        logger.debug('[+] ' + url)
 
     try:
         url = server+"?room="+room+"?status="+status+"?apikey="+apikey
