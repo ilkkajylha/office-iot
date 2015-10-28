@@ -6,7 +6,7 @@ Python source code - This python script reads pir state from arduino and makes i
 
 # vim: tabstop=8 expandtab shiftwidth=4 softtabstop=4
 
-import serial, argparse, os, time
+import serial, argparse, os, time, urllib2
 # Parse arguments
 parser = argparse.ArgumentParser()
 # example:  parser.add_argument('-', '--', help="default:" , default='')
@@ -39,10 +39,10 @@ def readStatus():
                 timer = 0
                 if max(status) == 1:
                     print(type(max(status)))
-                    # Sami's magic goes here
+                    urllib2.urlopen("http://46.101.255.17/~officeiot/pdo.php?room_number=45&room_status=1").read()
                 else: 
                     print(type(max(status)))
-                    # And here
+                    urllib2.urlopen("http://46.101.255.17/~officeiot/pdo.php?room_number=45&room_status=0").read()
                 timer = 0
                 status = []
 readStatus()
