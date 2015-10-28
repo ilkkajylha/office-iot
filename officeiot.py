@@ -20,7 +20,7 @@ parser.add_argument('-c','--config', help="specify config file")
 args = parser.parse_args()
 globals().update(vars(parser.parse_args()))
 
-cfgfile("config.ini")
+cfgfile = ("config.ini")
 def ConfigSectionMap(section):
     dict1 = {}
     options = Config.options(section)
@@ -36,17 +36,17 @@ def ConfigSectionMap(section):
 
 def useConfigFile():
     # Main
-    room = ConfigSectionMap("Main")'room']
-    apikey = ConfigSectionMap("Main")'apikey']
+    room = ConfigSectionMap("Main")['room']
+    apikey = ConfigSectionMap("Main")['apikey']
     # Arduino
-    com_port = ConfigSectionMap("Arduino")'com_port']
-    baud_rate = ConfigSectionMap("Arduino")'baud_rate']
+    com_port = ConfigSectionMap("Arduino")['com_port']
+    baud_rate = ConfigSectionMap("Arduino")['baud_rate']
     # Server
-    host = ConfigSectionMap("Server")'host']
-    https = ConfigSectionMap("Server")'https']
+    host = ConfigSectionMap("Server")['host']
+    https = ConfigSectionMap("Server")['https']
 
 
-def initialize_arduino_com:
+def initialize_arduino_com():
     if not args.demo:
         device = str(args.com)
         baud = int(args.baud)
