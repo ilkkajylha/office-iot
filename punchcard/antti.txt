@@ -6,6 +6,52 @@ Viikko 42 suunnitelmat:
 	- 16.10 Python + ryhmätyö 2-
 	- 17.10 Python xh + ??
 	- 18.10 Python xh + ??
+	
+27.10.15
+	- minute_loop.py -ohjelman koodaus Pythonilla
+	- 40min
+	
+26.10.15
+	- Python -harjoituksia (valmis laivanupotus -peli)
+	- Codecademyn oppimäärästä 59% suoritettu
+	- 30min
+	
+25.10.15
+	- Python -harjoituksia (laivanupotus -pelin ohjelmointi)
+	- 40min
+	
+20.10.15
+	- Python -harjoituksia (listat ja funktiot)
+	- Codecademyn oppimäärästä 52% suoritettu
+	- 45min
+	
+19.10.15
+	- Python -harjoituksia
+	- Codecademyn oppimäärästä 49% suoritettu
+	- 30min
+	
+18.10.15
+	- Python -harjoituksia
+	- 20min
+	
+17.10.15
+	- Python -opiskelua
+	- 15min
+	
+16.10.15
+	- Python -opiskelua
+	- Neukkaritilojen tiedot hakevan scriptin miettimistä
+	- Codecademyn oppimäärästä 42% suoritettu
+	- 1,5h
+	
+15.10.15
+	- Python -opiskelua (for -loopit, listojen järjestäminen, muokkaaminen ja appendaaminen toiseen listaan, dictionaryt)
+	- 1h
+	
+14.10.15
+	- Python -opiskelua (lisää looppeja, pirstatus.py -koodin pohdintaa)
+	- Debian Vagrant Boxin asennus (Raspberry Pi -virtualisointiin)
+	- 4h
 
 13.10.15
 	- Python -opiskelua (loopit, omien funktioiden kirjoittaminen ja kutsuminen)
