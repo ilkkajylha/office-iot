@@ -1,11 +1,26 @@
-Viikko 42 suunnitelmat:
-	- Python -treeniä, virtuaalipalvelimen käyttö, tietokannan harjoittelua
-	- 13.10 Python 2h
-	- 14.10 Python + ryhmätyö 2-4h
-	- 15.10 Python + JS 2h
-	- 16.10 Python + ryhmätyö 2-
-	- 17.10 Python xh + ??
-	- 18.10 Python xh + ??
+3.11.15
+	- Python -koodausta
+	- Ryhmätyön pohdintaa
+	- Codecademyn Python -kurssista 70% suoritettu
+	- 3h
+
+2.11.15
+	- Python -koodausta
+	- 1,5h
+	
+1.11.15
+	- Blenderiin tutustumista
+	- Python -harjoituksia
+	- Uuden Python -materiaalin etsintä ja hankkiminen, myös Raspi + Python -kirja
+	- 2h 45min
+	
+31.10.15
+	- For -looppeja Pythonilla
+	- 25min
+	
+30.10.15
+	- While -looppeja Pythonilla
+	- 20min
 	
 27.10.15
 	- minute_loop.py -ohjelman koodaus Pythonilla
