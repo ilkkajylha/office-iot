@@ -1,3 +1,21 @@
+10.11.15
+	- 3D -printatun kotelon suunnittelua Blenderillä Antti Elorannan kanssa
+		- Pohja:
+			- Pi: https://www.thingiverse.com/thing:24945
+			- Arduino: https://www.thingiverse.com/thing:20739
+	- 2,5h
+
+9.11.15
+	- Python -koodausta
+	- 1h
+
+- Tunteja puuttuu tästä välistä -
+
+4.11.15
+	- Ryhmätyön tekoa
+	- Python -koodausta
+	- 3h
+
 3.11.15
 	- Python -koodausta
 	- Ryhmätyön pohdintaa
