@@ -1,9 +1,16 @@
+11.11.15
+	- Python -ohjelmointia
+	- Raspin hankinta, Raspbianin asentaminen SD-kortille
+	- Ryhmätyön tehtäväjaon pohdintaa IRCissä
+	- 4h
+
 10.11.15
 	- 3D -printatun kotelon suunnittelua Blenderillä Antti Elorannan kanssa
 		- Pohja:
 			- Pi: https://www.thingiverse.com/thing:24945
 			- Arduino: https://www.thingiverse.com/thing:20739
-	- 2,5h
+	- Python -harjoituksia
+	- 3h
 
 9.11.15
 	- Python -koodausta
@@ -25,62 +32,62 @@
 2.11.15
 	- Python -koodausta
 	- 1,5h
-	
+
 1.11.15
 	- Blenderiin tutustumista
 	- Python -harjoituksia
 	- Uuden Python -materiaalin etsintä ja hankkiminen, myös Raspi + Python -kirja
 	- 2h 45min
-	
+
 31.10.15
 	- For -looppeja Pythonilla
 	- 25min
-	
+
 30.10.15
 	- While -looppeja Pythonilla
 	- 20min
-	
+
 27.10.15
 	- minute_loop.py -ohjelman koodaus Pythonilla
 	- 40min
-	
+
 26.10.15
 	- Python -harjoituksia (valmis laivanupotus -peli)
 	- Codecademyn oppimäärästä 59% suoritettu
 	- 30min
-	
+
 25.10.15
 	- Python -harjoituksia (laivanupotus -pelin ohjelmointi)
 	- 40min
-	
+
 20.10.15
 	- Python -harjoituksia (listat ja funktiot)
 	- Codecademyn oppimäärästä 52% suoritettu
 	- 45min
-	
+
 19.10.15
 	- Python -harjoituksia
 	- Codecademyn oppimäärästä 49% suoritettu
 	- 30min
-	
+
 18.10.15
 	- Python -harjoituksia
 	- 20min
-	
+
 17.10.15
 	- Python -opiskelua
 	- 15min
-	
+
 16.10.15
 	- Python -opiskelua
 	- Neukkaritilojen tiedot hakevan scriptin miettimistä
 	- Codecademyn oppimäärästä 42% suoritettu
 	- 1,5h
-	
+
 15.10.15
 	- Python -opiskelua (for -loopit, listojen järjestäminen, muokkaaminen ja appendaaminen toiseen listaan, dictionaryt)
 	- 1h
-	
+
 14.10.15
 	- Python -opiskelua (lisää looppeja, pirstatus.py -koodin pohdintaa)
 	- Debian Vagrant Boxin asennus (Raspberry Pi -virtualisointiin)
