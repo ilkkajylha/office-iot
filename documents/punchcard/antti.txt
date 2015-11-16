@@ -1,3 +1,22 @@
+15.11.15
+	- Python -ohjelmointia
+	- Logginging tekemistä officeiot.py:hyn
+	- 2h
+
+14.11.15
+	- Python -ohjelmointia
+	- 35min
+
+13.11.15
+	- Python -ohjelmointia
+	- Lambdat, anonyymit funktiot, "Advanced topics"
+	- Codecademy 80%
+	- 30min
+
+12.11.15
+	- Python -ohjelmointia
+	- 30min
+
 11.11.15
 	- Python -ohjelmointia
 	- Raspin hankinta, Raspbianin asentaminen SD-kortille

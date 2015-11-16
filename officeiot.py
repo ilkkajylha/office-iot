@@ -1,10 +1,16 @@
 #!/usr/bin/env python2
+# -*- coding: utf-8 -*-
 """
 Python source code - This python script reads pir state from arduino and makes it available via http(s). WIP
 """
 # vim: tabstop=4 expandtab shiftwidth=4 softtabstop=4
 
 import serial, argparse, time, random, datetime, urllib2, time, logging
+
+# logging, Teron aliakset, mutta -d muutettu -de:ksi, koska -d oli jo käytössä
+from logging import info as v
+from logging import debug as de
+from logging import error, warning
 
 # Parse arguments
 parser = argparse.ArgumentParser()
@@ -14,12 +20,14 @@ parser.add_argument('-d', '--demo', action='store_true',  help="Runs in demo mod
 parser.add_argument('-o', '--com', help="Set com port to use. *nix uses /dev/ttyACM0 and Windows uses COM5 for example. default:", default='COM5')
 parser.add_argument('-r', '--room', help="Set room number, not funcitonal yet")
 parser.add_argument('-sr', '--simulate-rooms', help="Simulate multiple rooms. Room number will be randomly generated for sendStatus function, not functional yet")
-parser.add_argument('-v', '--verbose', help="Set log level. There are different importance levels you can use, debug, info, warning, error and critical.")
+parser.add_argument('-v', '--verbose', action='store_const', dest='log_level', const=logging.INFO, default=logging.WARNING, help="Set log level. There are different importance levels you can use, debug, info, warning, error and critical.")
 parser.add_argument('-q','--quiet', action='store_true', help="Dont print anything to stdout")
 parser.add_argument('-c','--config', help="specify config file")
+parser.add_argument('-de', '--debug', action='store_const', dest='log_level', const=logging.DEBUG)
 args = parser.parse_args()
 globals().update(vars(parser.parse_args()))
 
+# Lataa logging -asetukset
 logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
 
@@ -65,7 +73,7 @@ def readPirStatus():
         pirStatus = random.randint(0,1)
         time.sleep(3)
         return pirStatus
-        
+
     else:
         while not pirStatus.isdigit():
             pirStatus = ser.read(1)
@@ -81,7 +89,7 @@ def sendStatus(status):
     try:
         url = server+"?room="+room+"?status="+status+"?apikey="+apikey
         urllib2.urlopen(url).read()
-    
+
     except urllib2.HTTPError, e:
         if not args.quiet:
             print('HTTPError: ' + str(e.code))
@@ -98,18 +106,26 @@ def main():
 
     sendStatus(str(max(status)))
 
+    logging.basicConfig(level=args.log_level, format='%(funcName)s():%(lineno)i: %(message)s %(levelname)s')
+    print('Use print() to always show lines. For example, normal program output.')
+    v('Verbose messages explain normal functioning. v() aka logging.info().')
+    de('Debug messages show technical details of the program. de() aka logging.debug().')
+    warning('Warnings are for problems that still allow the program to run. logging.warning().')
+    error('Errors mean a failed operation. logging.error(). Also consider sys.exit("Fobarization failed.") or raise().')
+    # Kopioitu Terolta, http://terokarvinen.com/2015/logging-in-python-with-function-names-line-numbers-command-line-v-d-and-aliases-v-d
+
 
 if __name__ == '__main__':
 
     initialize_arduino_com()
-    while True: 
+    while True:
         main()
 
 
-''' 
+'''
 # legacy ->
 
-def readStatus(): 
+def readStatus():
     status = []
     timer = 0
     while True:
@@ -123,7 +139,7 @@ def readStatus():
                 if max(status) == 1:
                     print(type(max(status)))
                     urllib2.urlopen("http://46.101.255.17/~officeiot/pdo.php?room_number=45&room_status=1").read()
-                else: 
+                else:
                     print(type(max(status)))
                     urllib2.urlopen("http://46.101.255.17/~officeiot/pdo.php?room_number=45&room_status=0").read()
                 timer = 0
