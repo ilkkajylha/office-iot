@@ -1,3 +1,18 @@
+18.11.16
+	- Blender
+	- Onnistunut kotelon pohjan 3D-tulostus
+	- 4,5h
+
+17.11.16
+	- Kotelon 3D-tulostus Antti Elorannan kanssa
+	- Koodin pläräämistä
+	- 4h
+
+16.11.16
+	- Pip, virtualenv, Python ym.
+	- Koodin ja ympäristön testailua ja tutkimista
+	- 1,5h
+
 15.11.15
 	- Python -ohjelmointia
 	- Logginging tekemistä officeiot.py:hyn
