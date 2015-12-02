@@ -1,3 +1,32 @@
+1.12.16
+	- Kotelon kannen Blender -mallin viilaus
+	- Lopullisen kotelon kannen tulostus
+	- 5,5h
+
+- Viikonloppuna Pythonin hakkausta ja Blenderiä x määrä
+
+26.11.16
+	- 3D -printterin säätöjen testailua
+	- Kotelon Blender -mallin muokkausta
+	- Lopullisen kotelon pohjan tulostus
+	- 7,5h
+
+25.11.16
+	- 3D -tulostusta, kotelon kasaaminen
+	- 6h
+
+24.11.16
+	- Kotelon kannen Blender -mallin valmistelua
+	- 3D -tulostusta
+	- Onnistunut kannen tulostus
+	- 6h
+
+-- tässä välissä unohdin merkata tunteja--
+
+19.11.16
+	- 3D-tulostuksen valmistelua
+	- 2,5h
+
 18.11.16
 	- Blender
 	- Onnistunut kotelon pohjan 3D-tulostus
