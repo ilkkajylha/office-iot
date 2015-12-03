@@ -23,3 +23,10 @@
 2015-10-25, 3h, Lisää refaktorointia, verbose ja quiet moodi, demotilan logiikan parannus. luotu config.py joka pyytää käyttäjältä tietoja joiden pohjalta rakennetaan asetustiedosto. Asetustiedostoa ei vielä hyödynnetä pääohjelmassa. 
 
 2015-10-28, 1h, Antin ja Samin koodin liittäminen omaan koodiin
+
+-----
+
+
+2015-11-18, 2h, Tietokannan luonti ja virheiden selvittäminen. Kirjautumisen suunnittelu
+
+2015-11-18, 3h, nodejs opiskelu, kirjautuminen frontendiin
